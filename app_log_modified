@@ -1,0 +1,16 @@
+2K performance run parameters for coremark.
+CoreMark Size    : 666
+Total ticks      : 14929864
+Total time (secs): 14.929863
+Iterations/Sec   : 2.679194
+Iterations       : 40
+Compiler version : riscv64-unknown-elf-15.1.0
+Compiler flags   : -mcmodel=medany -DCUSTOM -DPERFORMANCE_RUN=1 -DMAIN_HAS_NOARGC=1 -DHAS_STDIO -DHAS_PRINTF -DHAS_TIME_H -DUSE_CLOCK -DHAS_FLOAT -DITERATIONS=40 -O3 -fno-unsafe-math-optimizations -fno-tree-loop-vectorize -fno-strict-aliasing -fgnu89-inline -fno-common -funroll-loops -finline-functions -fselective-scheduling -falign-functions=4 -falign-jumps=4 -falign-loops=4 -finline-limit=1000 -nostartfiles -nostdlib -ffast-math -fno-builtin-printf -mabi=lp64d -march=rv64imafdc -mexplicit-relocs --param max-unroll-times=2
+Memory location  : STACK
+seedcrc          : 0xe9f5
+[0]crclist       : 0xe714
+[0]crcmatrix     : 0x1fd7
+[0]crcstate      : 0x8e3a
+[0]crcfinal      : 0x65c5
+Correct operation validated. See README.md for run and reporting rules.
+CoreMark 1.0 : 2.679194 / riscv64-unknown-elf-15.1.0 -mcmodel=medany -DCUSTOM -DPERFORMANCE_RUN=1 -DMAIN_HAS_NOARGC=1 -DHAS_STDIO -DHAS_PRINTF -DHAS_TIME_H -DUSE_CLOCK -DHAS_FLOAT -DITERATIONS=40 -O3 -fno-unsafe-math-optimizations -fno-tree-loop-vectorize -fno-strict-aliasing -fgnu89-inline -fno-common -funroll-loops -finline-functions -fselective-scheduling -falign-functions=4 -falign-jumps=4 -falign-loops=4 -finline-limit=1000 -nostartfiles -nostdlib -ffast-math -fno-builtin-printf -mabi=lp64d -march=rv64imafdc -mexplicit-relocs --param max-unroll-times=2 / STACK
